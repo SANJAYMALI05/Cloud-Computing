@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.navbar {  /* Changed .header to .navbar to match HTML */
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute space between logo and links */
+    padding: 0 20px; /* Add some padding */
+}
+
+.logo {
+    height: 60px; /* Adjust logo height as needed */
+}
+
+.navbar a {
+    color: white; /* Set link color */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 15px; /* Add spacing between links */
+}
+
+nav { /* Style the navigation links container */
+    display: flex;
+}
+
+.cart-icon {
+    color: white;
+    font-size: 20px; /* Adjust cart icon size */
+}
+
+/* Add more styles as needed */
